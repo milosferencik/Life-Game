@@ -77,7 +77,7 @@ namespace LiveGame
             int[,] world2;
             world1 = world2 = InitializeWorld(size);
             int iterator = 1;
-            Console.WriteLine("Start");
+            Console.WriteLine("Initial world");
             Print(world2, size);
             while (true)
             {
